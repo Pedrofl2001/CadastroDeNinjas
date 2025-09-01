@@ -28,4 +28,6 @@ public class NinjaModel {
     @ManyToOne
     @JoinColumn(name = "missao_id")
     private MissaoModel missao;
+
+    
 }
