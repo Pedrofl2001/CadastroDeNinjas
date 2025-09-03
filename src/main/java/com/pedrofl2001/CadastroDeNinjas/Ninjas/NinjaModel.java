@@ -29,5 +29,5 @@ public class NinjaModel {
     @JoinColumn(name = "missao_id")
     private MissaoModel missao;
 
-    
+
 }

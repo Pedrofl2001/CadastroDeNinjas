@@ -24,4 +24,5 @@ public class MissaoModel {
 
     @OneToMany(mappedBy = "missao")
     private List<NinjaModel> ninjas;
+
 }
